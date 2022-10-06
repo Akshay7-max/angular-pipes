@@ -1,0 +1,40 @@
+<div>
+  <fieldset>
+    <legend style="color:blueviolet">Pipes : </legend>
+    <h1 style="color:teal">Pipes</h1>
+    City : {{city}}<br/>
+    Salary : {{salary}}<br/>
+    n : {{n}}<br/>
+    Current Time : {{dt}}<br/>
+    Person : {{person}}
+    <hr/>
+    Uppercase : {{city | uppercase}}<br/>
+    Lowercase : {{city | lowercase}}<br/>
+    Slice : {{city | slice:2:6}}<br/>
+    number : {{salary | number}}<br/>
+    number2 : {{salary | number:".2"}}<br/>
+    currency : {{salary | currency:"USD"}}<br/>
+    INR : {{salary | currency:"INR"}}<br/>
+    GBP : {{salary | currency:"GBP"}}<br/>
+    EUR : {{salary | currency:"EUR"}}<br/>
+    n (percent) : {{n | percent}}<br/>
+    json : {{person | json}}<br/>
+    ShortDate : {{dt | date:"shortDate"}}<br/>
+    MediumDate : {{dt | date:"mediumDate"}}<br/>
+    LongDate : {{dt | date:"longDate"}}<br/>
+    FullDate : {{dt | date:"fullDate"}}<br/>
+    ShortTime : {{dt | date:"shortTime"}}<br/>
+    LongTime : {{dt | date:"mediumTime"}}<br/>
+    Short : {{dt | date:"short"}}<br/>
+    Medium : {{dt | date:"medium"}}<br/>
+    d/M/y : {{dt | date:"d/M/y"}}<br/>
+    y/M/d : {{dt | date:"y/M/d"}}<br/>
+    H:m : {{dt | date:"H:m"}}<br/>
+    a : {{dt | date:"a"}}<br/>
+    EEE : {{dt | date:"EEE"}}<br/>
+    EEEE : {{dt | date:"EEEE"}}<br/>
+    MMM : {{dt | date:"MMM"}}<br/>
+    MMMM : {{dt | date:"MMMM"}}<br/>
+    Z : {{dt | date:"Z"}}<br/>
+  </fieldset>
+</div>
